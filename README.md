@@ -45,4 +45,4 @@ There will be 'int ' to represent the marbles properties of color and size, clas
 For the bag properties, it's not as important as the marbles: just the size of the bag.
 At the beginning of the program, we could request the user input 'How many MAX marbles should this bag hold?' Zero would be an error, but a number in the billions could be allowed. (Possibly stopping after 20 digits or less).
 
-Testing: We could test input of both color and size, adding specific marbles, removing marbles from bag, bag numbers.
+Testing: We could test input of both color and size, adding specific marbles, removing marbles from bag, marble numbers in bag. See what happens when removing all marble combos.
