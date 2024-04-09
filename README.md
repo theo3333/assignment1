@@ -1,4 +1,4 @@
-# assignment1-CS260 README BAG OF MARBLES
+# assignment1 TL
 
 The goal of this Bag of Marbles program is to have various ways to add and remove different variety of marbles from a bag. The marbles can be of different colors, different sizes, but no matter what properties, they should be removed or added to the bag at will. They can be removed one at a time. There can be an extremely small number or very large, in the millions of marbles added to an infintely sized bag.
 
