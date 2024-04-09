@@ -1,0 +1,54 @@
+//The goal of this Bag of Marbles program is to have various ways to add and remove 
+//different variety of marbles from a bag. The marbles can be of different colors, 
+//different sizes, but no matter what properties, they should be removed or added to 
+//the bag at will. They can be removed one at a time. There can be an extremely small
+ //number or very large, in the millions of marbles added to an infintely sized bag.
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+//Marbles class for color and size
+class Marbles {
+public:
+    int color;
+    int size;
+    Marbles(int color, int size){
+
+    };
+
+    class Bag {
+public:
+    vector<Marbles> marbles;
+    void AddMarb(Marbles marble){
+        marbles.push_back(marble);
+    }
+
+    Marbles RemoveMarb() {
+        Marbles marble = marbles
+    }
+    //bag size with marbles
+    
+int bag(){
+    return marbles.bag()
+}
+    };
+
+    int main(){
+        Bag bag;
+
+        vector<string> color = {"red","blue","green"}
+        vector<stirng> size = {"small","medium","large"}
+//Add various types of marbles to bag
+        bag.AddMarb(Marbles(red, small));
+        bag.AddMarb(Marbles(blue, medium));
+        bag.AddMarb(Marbles(green, large));
+//Remove various types of marbles from bag
+        Marbles marbles = bag.RemoveMarb();
+//Show marbles color and size taken
+        cout <<"From the the bag, you draw a" << marbles.color << marbles.size << "marble." <<endl;
+//Show marbles in bag number
+        cout<<"Number of marbles in bag are:" << marbles.Bag() <<endl;
+        return 0;
+    }};
